@@ -1,7 +1,12 @@
 h1{
-	font-family: sans-serif;
+    font-family:sans-serif;
+    border-bottom:1px solid black;
+    text-align: center;
 }
 
-strong{
-    color: purple;
+p{
+    margin: 0 auto;
+    background-color: lightgray;
+    text-align: center;
 }
+
