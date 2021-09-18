@@ -1,10 +1,10 @@
-const answer = document.querySelector(".answer");
-const bottomTry = document.querySelector("#btn_try");
+const answer      = document.querySelector(".answer");
+const bottomTry   = document.querySelector("#btn_try");
 const inputNumber = document.querySelector("#number");
 
 bottomTry.addEventListener("click", () => {
 
-    let number = Math.round(inputNumber.value);
+    let number = Math.ceil(inputNumber.value);
     console.log(inputNumber.value);
     switch (number) {
         case 10:
@@ -14,8 +14,6 @@ bottomTry.addEventListener("click", () => {
             answer.innerHTML = "Sobresaliente";
             break;
         case 8:
-            answer.innerHTML = "Notable";
-            break;
         case 7:
             answer.innerHTML = "Notable";
             break;
@@ -26,17 +24,9 @@ bottomTry.addEventListener("click", () => {
             answer.innerHTML = "Suficiente";
             break;
         case 4:
-            answer.innerHTML = "Insuficiente"; 
-            break;
         case 3:
-            answer.innerHTML = "Insuficiente";
-            break;
         case 2:
-            answer.innerHTML = "Insuficiente";
-            break;
         case 1:
-            answer.innerHTML = "Insuficiente";
-            break;
         case 0:
             answer.innerHTML = "Insuficiente";
             break;
