@@ -51,7 +51,7 @@ body{
 }
 
 .element > button{
-    width: 100%;
+    width: 32rem;
     height: 3rem;
 }
 
@@ -63,10 +63,11 @@ body{
 }
 
 .element > p {
-    background-color: white;
+    background-color: #777;
+    color: white;
     width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
